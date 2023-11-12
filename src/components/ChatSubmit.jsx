@@ -29,7 +29,7 @@ const ChatSubmit = ({ content, setContent }) => {
   };
 
   return (
-    <div className="h-24 md:h-32 fixed bottom-0 bg-white border-t-2 border-pink-300">
+    <div className="h-24 md:h-32 bg-white border-t-2 border-pink-300 absolute bottom-0 w-full">
       <form className="flex items-center h-full" onSubmit={onSubmitChat}>
         <input
           className="ml-2 w-full py-1 px-2 focus:outline-none border-2 focus:border-pink-400 md:py-3"
