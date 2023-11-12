@@ -57,7 +57,7 @@ const ChatSubmit = ({ content, setContent, chatList, setChatList }) => {
           disabled={isLoading}
         />
         <input
-          className={`w-20 md:w-40 text-xs mx-2 active:bg-pink-600 py-2 rounded-lg md:py-3 md:text-xl ${
+          className={`text-white w-20 md:w-40 text-xs mx-2 active:bg-pink-600 py-2 rounded-lg md:py-3 md:text-xl ${
             isLoading ? "bg-gray-400" : "bg-pink-400"
           }`}
           type="submit"
