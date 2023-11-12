@@ -2,7 +2,7 @@ import ChatLogCard from "./ChatLogCard";
 
 const ChatLog = ({ chatList }) => {
   return (
-    <div className="bg-blue-100 w-1/4 min-w-[120px]">
+    <div className="w-1/4 min-w-[120px] shadow-md">
       <ul className="p-4">
         {chatList &&
           chatList.map((v, i) => (
